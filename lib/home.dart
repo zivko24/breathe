@@ -10,22 +10,22 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          width: MediaQuery.of(context).size.width * 0.6, // Set the width to 50% of the screen width
-          height: MediaQuery.of(context).size.width * 0.6, // Set the height to 50% of the screen width
+          width: MediaQuery.of(context).size.width * 0.7,
+          height: MediaQuery.of(context).size.width * 0.7,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
-            color: Palette.primaryColor, // Adjust the color as needed
+            color: Palette.primaryColor,
           ),
           child: ElevatedButton(
             onPressed: () {
-              // Function to start exercise
+              // Handle button press, e.g., navigate to the exercise page
             },
             child: Text(
               'Start Exercise',
-              style: TextStyle(fontSize: 44),
+              style: TextStyle(fontSize: 36, color: Palette.textWhite),
             ),
             style: ElevatedButton.styleFrom(
-              backgroundColor: Palette.primaryColor,
+              primary: Colors.transparent,
               elevation: 0,
             ),
           ),
