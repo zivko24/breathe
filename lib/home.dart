@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
               style: TextStyle(fontSize: 36, color: Palette.textWhite),
             ),
             style: ElevatedButton.styleFrom(
-              primary: Colors.transparent,
+              backgroundColor: Palette.primaryColor,
               elevation: 0,
             ),
           ),
