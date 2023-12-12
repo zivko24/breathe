@@ -13,9 +13,9 @@ class TopAppBar extends StatelessWidget implements PreferredSizeWidget {
       title: Row(
         children: [
           Text(title),
-          SizedBox(width: 16), // Adjust the spacing between title and button
+          SizedBox(width: 240), // Adjust the spacing between title and button
           IconButton(
-            icon: Icon(Icons.message), // Change the icon as needed
+            icon: Icon(Icons.person), // change it to picture maybe later
             onPressed: () {
               // Navigate to a new page when the button is pressed
               Navigator.push(
