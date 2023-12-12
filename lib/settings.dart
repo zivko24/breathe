@@ -36,6 +36,14 @@ class _SettingsPage2State extends State<SettingsPage> {
                       ),
                     ),
                     const _CustomListTile(
+                      title: "Login",
+                      icon: Icons.person_outline_rounded,
+                    ),
+                    const _CustomListTile(
+                      title: "Register",
+                      icon: Icons.person_outline_rounded,
+                    ),
+                    const _CustomListTile(
                       title: "Notifications",
                       icon: Icons.notifications_none_rounded,
                     ),
